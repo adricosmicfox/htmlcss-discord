@@ -194,13 +194,20 @@ footer {
     width: 300px;
 }
 
+.smalllogos {
+    margin-top: 15px;
+    margin-right: 16px;
+    fill: white;
+    width: 17px;
+}
+
 footer>div>h2 {
     font-size: 33px;
 }
 
-footer>div>img {
-    margin-top: 20px;
-    width: 20px;
+#itaflag {
+    height: 15px;
+    margin-right: 5px;
 }
 
 footer>div>p {
@@ -209,6 +216,17 @@ footer>div>p {
     line-height: 30px;
 }
 
+#italian {
+    font-size: 10px;
+    color: white;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#prova {
+    text-align: center;
+}
 
 /* hr with last bullets */
 
