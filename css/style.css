@@ -9,7 +9,7 @@
 header {
     color: white;
     display: flex;
-    height: 600px;
+    height: 500px;
     flex-direction: column;
     background-image: url("../img/jumbo.png");
     background-repeat: no-repeat;
