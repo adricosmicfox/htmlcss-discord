@@ -1,60 +1,129 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 
-/* navigation bar and first big banner */
+/* navigation bar */
 
 header {
-    width: 100%;
-    height: 100%;
     color: white;
     display: flex;
+    height: 500px;
     flex-direction: column;
-    background-image: url(/img/jumbo.png);
-    background-size: contain;
-    background-color: #3161E0;
-    /* padding-left: 200px;
-    padding-right: 200px; */
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: center;
 }
 
-/* #discord-logo {
-    margin-left: 200px;
+#discord-logo {
+    margin-right: 100px;
+}
+
+#upper-links>span {
+    margin-right: 50px;
+}
+
+#upper-links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 #accedi {
-    margin-right: 200px;
-} */
+    margin-left: 100px;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+}
 
-header>h1 {
+
+#upper-menu {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+/* big banner */
+
+#where2talk {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+}
+
+h1 {
+    font-size: 50px;
     margin-bottom: 30px;
     align-items: center;
 }
 
-#upper-menu {
-    margin-top: 30px;
-    margin-bottom: 70px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+#where2talk>p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
 }
 
-.upper-bullets {
+.call-bullets {
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    padding-bottom: 120px;
 }
 
+#button4mac {
+    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+#button4open {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-size: 16px;
+    color: white;
+    background-color: #23272A;
+}
 
 /* section with benefits */
 
+section>div>h2 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+section>div>p {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
 .section-right-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 250px;
-    padding-right: 350px;
+    padding-right: 320px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -62,8 +131,10 @@ header>h1 {
 }
 
 #section-left-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 250px;
-    padding-right: 350px;
+    padding-right: 320px;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
@@ -72,6 +143,8 @@ header>h1 {
 }
 
 #section-upper-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
