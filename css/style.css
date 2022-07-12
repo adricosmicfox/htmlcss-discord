@@ -50,7 +50,7 @@ button {
 
 #upper-menu {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -264,8 +264,8 @@ footer>div>p {
 
 hr {
     background-color: #23272A;
-    margin-left: 325px;
-    margin-right: 325px;
+    margin-left: 245px;
+    margin-right: 245px;
     background-color: #648AE8;
     border: none;
     height: 1px;
@@ -283,5 +283,5 @@ hr {
 
 #discordlogo2 {
     width: 100px;
-    margin-right: 750px;
+    margin-right: 620px;
 }
