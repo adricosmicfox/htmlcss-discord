@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navigation bar and first big banner */
+
+header {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/jumbo.png);
+    background-size: contain;
+    background-color: #3161E0;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    text-align: center;
+}
+
+/* #discord-logo {
+    margin-left: 200px;
+}
+
+#accedi {
+    margin-right: 200px;
+} */
+
+header>h1 {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#upper-menu {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.upper-bullets {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 120px;
+}
+
+
+/* section with benefits */
+
+.section-right-text {
+    padding-left: 250px;
+    padding-right: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#section-left-text {
+    padding-left: 250px;
+    padding-right: 350px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#section-upper-text {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer with links */
+
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #4671E7;
+    background-color: #23272A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer>div>p {
+    color: white;
+}
+
+#bottom-line {
+    color: white;
+    padding-top: 30px;
+    background-color: #23272A;
+    height: 150px;
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #4671E7;
+    border: none;
+    height: 1px;
+}
+
+#bottom-line>div>span {
+    padding-left: 250px;
+    padding-right: 250px;
+}
