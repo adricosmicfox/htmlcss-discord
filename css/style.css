@@ -155,40 +155,97 @@ section>div>p {
     align-items: center;
 }
 
+#adventure {
+    width: 600px;
+    padding-top: 35px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+
+section>div>h3 {
+    font-size: 20px;
+}
+
+#bigbuttonmac {
+    padding-bottom: 14px;
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+    background-color: #648AE8;
+}
+
 /* footer with links */
 
 footer {
-    padding-left: 100px;
-    padding-right: 100px;
-    color: #4671E7;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #648AE8;
     background-color: #23272A;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-footer>div>p {
-    color: white;
+#talkbox {
+    width: 300px;
 }
 
-#bottom-line {
+footer>div>h2 {
+    font-size: 33px;
+}
+
+footer>div>img {
+    margin-top: 20px;
+    width: 20px;
+}
+
+footer>div>p {
+    font-size: 15px;
     color: white;
+    line-height: 30px;
+}
+
+
+/* hr with last bullets */
+
+#bottom-line {
+    display: flex;
+    flex-direction: row;
     padding-top: 30px;
     background-color: #23272A;
     height: 150px;
-    text-align: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#horizontalrule {
+    background-color: #23272A;
+    padding-top: 30px;
 }
 
 hr {
-    margin-bottom: 30px;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: #4671E7;
+    background-color: #23272A;
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color: #648AE8;
     border: none;
     height: 1px;
 }
 
-#bottom-line>div>span {
-    padding-left: 250px;
-    padding-right: 250px;
+#signup {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 10px;
+    color: white;
+    background-color: #648AE8;
+}
+
+#discordlogo2 {
+    width: 100px;
 }

@@ -6,6 +6,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Welcome to Discord</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel='stylesheet' href='css/style.css'>
     <script src='main.js'></script>
 </head>
@@ -89,18 +92,21 @@
                     condivisione schermo. </p>
             </div>
             <img src="img/item4-big.svg" alt="">
-            <div>
+            <div id="adventure">
                 <h3>Pronto a iniziare la tua nuova avventura?</h3>
-                <span>Scarica per Mac</span>
+                <button id="bigbuttonmac"> &#129047; Scarica per Mac</button>
             </div>
         </section>
     </main>
 
     <!--footer with links-->
     <footer>
-        <div>
+        <div id="talkbox">
             <h2>Il tuo posto per parlare</h2>
-            <p>italiano</p>
+            <img src="img/ita.png" alt="ita flag">
+            <div>
+                <p>Italiano</p>
+            </div>
             <div>
                 <p>twitter</p>
                 <p>instagram</p>
@@ -151,12 +157,15 @@
         </div>
     </footer>
 
+    <div id="horizontalrule">
+        <hr>
+    </div>
+
     <!--hr with last bullets-->
     <div id="bottom-line">
-        <hr>
+        <img id="discordlogo2" src="img/logo.svg" alt="logo discord">
         <div>
-            <span>Discord</span>
-            <span>Registrati</span>
+            <button id="signup">Registrati</button>
         </div>
     </div>
 
