@@ -1,7 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+
 }
 
 
@@ -10,7 +10,7 @@
 header {
     color: white;
     display: flex;
-    height: 500px;
+    height: 600px;
     flex-direction: column;
     background-image: url("../img/jumbo.png");
     background-repeat: no-repeat;
@@ -60,8 +60,9 @@ button {
 /* big banner */
 
 #where2talk {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 55px;
+    margin-left: 300px;
+    margin-right: 300px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -81,7 +82,7 @@ h1 {
 }
 
 .call-bullets {
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -109,6 +110,24 @@ h1 {
 
 /* section with benefits */
 
+
+.text-container {
+    margin-top: 35px;
+    height: 150px;
+    width: 350px;
+}
+
+.wave {
+    fill: #F6F6F6;
+    display: block;
+}
+
+.wavecapovolta {
+    fill: #F6F6F6;
+    display: block;
+    transform: rotate(180deg);
+}
+
 section>div>h2 {
     font-size: 35px;
     line-height: 40px;
@@ -119,27 +138,25 @@ section>div>p {
     line-height: 25px;
 }
 
+.image {
+    width: 600px;
+}
+
 .section-right-text {
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 250px;
-    padding-right: 320px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: center;
+
 }
 
 #section-left-text {
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 250px;
-    padding-right: 320px;
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    align-items: center;
 }
 
 #section-upper-text {
